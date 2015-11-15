@@ -15,6 +15,7 @@
 		65814F8F1BD0876A0050455D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65814F8D1BD0876A0050455D /* LaunchScreen.storyboard */; };
 		65814F9A1BD0876A0050455D /* SearchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65814F991BD0876A0050455D /* SearchControllerTests.m */; };
 		65814FA51BD0876A0050455D /* SearchControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65814FA41BD0876A0050455D /* SearchControllerUITests.m */; };
+		65EDD6A01BE9B2D700A655F3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EDD69F1BE9B2D700A655F3 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		65814FA01BD0876A0050455D /* SearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65814FA41BD0876A0050455D /* SearchControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchControllerUITests.m; sourceTree = "<group>"; };
 		65814FA61BD0876A0050455D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EDD69F1BE9B2D700A655F3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EDD6A01BE9B2D700A655F3 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		65814F731BD087690050455D = {
 			isa = PBXGroup;
 			children = (
+				65EDD69F1BE9B2D700A655F3 /* iAd.framework */,
 				65814F7E1BD087690050455D /* SearchController */,
 				65814F981BD0876A0050455D /* SearchControllerTests */,
 				65814FA31BD0876A0050455D /* SearchControllerUITests */,
@@ -499,6 +503,7 @@
 				65814FAB1BD0876A0050455D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65814FAC1BD0876A0050455D /* Build configuration list for PBXNativeTarget "SearchControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +512,7 @@
 				65814FAE1BD0876A0050455D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65814FAF1BD0876A0050455D /* Build configuration list for PBXNativeTarget "SearchControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +521,7 @@
 				65814FB11BD0876A0050455D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
